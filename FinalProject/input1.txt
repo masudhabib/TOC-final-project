@@ -1,0 +1,6 @@
+a is 10
+b is 20
+if a == b
+print equal
+else
+print unequal

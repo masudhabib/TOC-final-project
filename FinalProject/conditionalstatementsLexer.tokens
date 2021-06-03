@@ -1,0 +1,13 @@
+PRINT=1
+IS=2
+IF=3
+ELSE=4
+EQUALS=5
+ID=6
+NUMBER=7
+WHITESPACE=8
+'print'=1
+'is'=2
+'if'=3
+'else'=4
+'=='=5
