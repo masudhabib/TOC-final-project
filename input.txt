@@ -6,12 +6,13 @@
 3+(4*5)
 (6-3)*(4+5)
 2*3-(6-2)
-sqrt(16)
-log(10)
+sqrt 16
+log 10
 2.3+4.5
 2.3*(6+5)
-sin(45)
-cos(45)
-tan(45)
-cot(45)
-sin(45) + cos(45)
+sin45
+cos45
+tan45
+cot45
+(sin 45) + (cos 45)
+(sqrt 16)+(square 3)

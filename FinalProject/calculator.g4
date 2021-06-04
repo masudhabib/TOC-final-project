@@ -42,9 +42,11 @@ LPAREN expression RPAREN #parentheses // rule for parsring parentheses
 | trigOperators = (SIN | COS | TAN | COT) expression #trigFunctions // rule for parsing sin/cos/tan/cot
 | NUMBER #number; // rule for parsing actual number
 
-
 /*example input
-2*3+(4-2)
+2*(3+4)
+2.3 + 4.5
+(sin 45) + (cos 45)
+(sqrt 16) + (square 3)
 */
 
 

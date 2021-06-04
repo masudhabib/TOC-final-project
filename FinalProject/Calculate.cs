@@ -51,7 +51,8 @@ namespace FinalProject
         public override float VisitSquare(calculatorParser.SquareContext context)
         {
             var number = Visit(context.expression());
-            return Convert.ToSingle(number*number);
+            var result = number * number;
+            return Convert.ToSingle(result);
         }
 
         public override float VisitLog(calculatorParser.LogContext context)
