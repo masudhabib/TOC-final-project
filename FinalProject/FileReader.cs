@@ -8,7 +8,7 @@ namespace FinalProject
     {
         public IEnumerable<string> ReadFile()
         {
-            var directoryInfo = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.Parent;
+            var directoryInfo = Directory.GetParent(Directory.GetCurrentDirectory());
             if (directoryInfo is null)
             {
                 throw new FileNotFoundException();
