@@ -44,9 +44,6 @@ LPAREN expression RPAREN #parentheses // rule for parsring parentheses
 
 /*example input
 2*(3+4)
-2.3 + 4.5
-(sin 45) + (cos 45)
-(sqrt 16) + (square 3)
 */
 
 

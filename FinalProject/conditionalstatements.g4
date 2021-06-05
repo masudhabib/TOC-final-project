@@ -18,11 +18,11 @@ WHITESPACE: [ \t\r\n] -> skip;
 PARSER RULES
 -------------------*/
 
-start: block;
-block: statement+;
-statement: conditinalstatement | assignment | print;
-assignment: ID IS NUMBER;
-conditinalstatement: IF expression ELSE block;
+start: block; // start
+block: statement+; // block can have multiple statements
+statement: conditinalstatement | assignment | print; // statement can be conditional, assignment or print
+assignment: ID IS NUMBER; 
+conditinalstatement: IF expression ELSE block; 
 print: PRINT ID;
 expression: ID EQUALS ID block; 
 
